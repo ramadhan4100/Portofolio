@@ -1,0 +1,2792 @@
+==============================================================
+Warning:
+Do not modify this file because it is generated automatically. All changes will be overwritten.
+==============================================================
+
+Reliance 4 Visualization Project
+==============================================================
+
+Table of Contents
+==============================================================
+1. Project Directory Structure
+2. Main\System Directory File List
+3. Main\System Directory File Structure
+
+
+1. Project Directory Structure
+==============================================================
+A project's root directory contains the following subdirectories:
+
+Main - contains the most important project files (changes during project development and run-time)
+Settings - contains project settings files (changes during project development and run-time)
+History - contains historical files, e.g. historical data, alarms, etc. (only changes during project run-time)
+ThinClients - contains files needed for running the project in Thin clients (generated during project development with Reliance Design)
+
+2. Main\System Directory File List
+==============================================================
+A project's System directory can contain the following files:
+
+Objects_00000001.rdt - Table of objects of type 'Control Area'
+Objects_00000002.rdt - Table of objects of type 'Computer'
+Objects_00000003.rdt - Table of objects of type 'User'
+Objects_00000004.rdt - Table of objects of type 'Printer'
+Objects_00000005.rdt - Table of objects of type 'Window'
+Objects_00000006.rdt - Table of objects of type 'Alarm/Event'
+Objects_00000007.rdt - Table of objects of type 'Script'
+Objects_00000008.rdt - Table of objects of type 'Communication Zone'
+Objects_00000009.rdt - Table of objects of type 'Tag'
+Objects_0000000A.rdt - Table of objects of type 'Connected Device'
+Objects_0000000B.rdt - Table of objects of type 'Communication Channel'
+Objects_0000000C.rdt - Table of objects of type 'Device'
+Objects_0000000D.rdt - Table of objects of type 'Connected Data Table'
+Objects_0000000E.rdt - Table of objects of type 'Data Table'
+Objects_0000000F.rdt - Table of objects of type 'Data Table Field'
+Objects_00000010.rdt - Table of objects of type 'Connected Trend'
+Objects_00000011.rdt - Table of objects of type 'Trend'
+Objects_00000012.rdt - Table of objects of type 'Trend Series'
+Objects_00000013.rdt - Table of objects of type 'Real-Time Trend'
+Objects_00000014.rdt - Table of objects of type 'Real-Time Trend Series'
+Objects_00000015.rdt - Table of objects of type 'Connected Report'
+Objects_00000016.rdt - Table of objects of type 'Report'
+Objects_00000017.rdt - Table of objects of type 'Report Item'
+Objects_00000018.rdt - Table of objects of type 'Connected Custom Report'
+Objects_00000019.rdt - Table of objects of type 'Custom Report'
+Objects_0000001A.rdt - Table of objects of type 'Custom Report Item'
+Objects_0000001B.rdt - Table of objects of type 'Connected Recipe Types'
+Objects_0000001C.rdt - Table of objects of type 'Recipe Type'
+Objects_0000001D.rdt - Table of objects of type 'Recipe Item'
+Objects_0000001E.rdt - Table of objects of type 'Server Connection Group'
+Objects_0000001F.rdt - Table of objects of type 'Server Connection'
+Objects_00000020.rdt - Table of objects of type 'Modem'
+Objects_00000021.rdt - Table of objects of type 'Picture'
+Objects_00000022.rdt - Table of objects of type 'Connected Script'
+Objects_00000023.rdt - Table of objects of type 'Data Structure'
+Objects_00000024.rdt - Table of objects of type 'Data Structure Field'
+Objects_00000025.rdt - Table of objects of type 'Connected User'
+Objects_00000026.rdt - Table of objects of type 'Action'
+Objects_00000027.rdt - Table of objects of type 'Communication Driver'
+Objects_00000028.rdt - Table of objects of type 'Connected Communication Driver'
+Objects_00000029.rdt - Table of objects of type 'State list'
+Objects_0000002A.rdt - Table of objects of type 'State'
+Objects_0000002C.rdt - Table of objects of type 'State list folder'
+Objects_0000002D.rdt - Table of objects of type 'State folder'
+Objects_0000002E.rdt - Table of objects of type 'Connected Device Folder'
+Objects_0000002F.rdt - Table of objects of type 'Connected Communication Driver Folder'
+Objects_00000030.rdt - Table of objects of type 'Device Folder'
+Objects_00000031.rdt - Table of objects of type 'Communication Zone Folder'
+Objects_00000032.rdt - Table of objects of type 'Tag Folder'
+Objects_00000033.rdt - Table of objects of type 'Alarm/Event Folder'
+Objects_00000034.rdt - Table of objects of type 'Connected Data Table Folder'
+Objects_00000036.rdt - Table of objects of type 'Data Table Folder'
+Objects_00000037.rdt - Table of objects of type 'Data Table Field Folder'
+Objects_00000038.rdt - Table of objects of type 'Connected Trend Folder'
+Objects_00000039.rdt - Table of objects of type 'Trend Folder'
+Objects_0000003A.rdt - Table of objects of type 'Trend Series Folder'
+Objects_0000003B.rdt - Table of objects of type 'Real-Time Trend Folder'
+Objects_0000003C.rdt - Table of objects of type 'Real-Time Trend Series Folder'
+Objects_0000003D.rdt - Table of objects of type 'Connected Report Folder'
+Objects_0000003E.rdt - Table of objects of type 'Report Folder'
+Objects_0000003F.rdt - Table of objects of type 'Report Item Folder'
+Objects_00000040.rdt - Table of objects of type 'Connected Custom Report Folder'
+Objects_00000041.rdt - Table of objects of type 'Custom Report Folder'
+Objects_00000042.rdt - Table of objects of type 'Custom Report Item Folder'
+Objects_00000043.rdt - Table of objects of type 'Connected Recipe Type Folder'
+Objects_00000044.rdt - Table of objects of type 'Recipe Type Folder'
+Objects_00000045.rdt - Table of objects of type 'Recipe Item Folder'
+Objects_00000046.rdt - Table of objects of type 'Connected Script Folder'
+Objects_00000048.rdt - Table of objects of type 'Script Folder'
+Objects_00000049.rdt - Table of objects of type 'Window Folder'
+Objects_0000004B.rdt - Table of objects of type 'Computer Folder'
+Objects_0000004C.rdt - Table of objects of type 'User Folder'
+Objects_0000004D.rdt - Table of objects of type 'Printer Folder'
+Objects_0000004E.rdt - Table of objects of type 'Modem Folder'
+Objects_00000051.rdt - Table of objects of type 'Picture Folder'
+Objects_00000052.rdt - Table of objects of type 'Data Structure Folder'
+Objects_00000053.rdt - Table of objects of type 'Connected User Folder'
+Objects_00000054.rdt - Table of objects of type 'Action Folder'
+Objects_00000055.rdt - Table of objects of type 'Communication Driver Folder'
+Objects_000000C8.rdt - Table of objects of type 'Trend Chart Axis'
+Objects_000000C9.rdt - Table of objects of type 'Role'
+Objects_000000FA.rdt - Table of objects of type 'Trend Chart Axis Folder'
+Objects_000000FB.rdt - Table of objects of type 'Role Folder'
+
+3. Main\System Directory File Structure
+==============================================================
+Files in the Main\System directory are tables in the RDT format. For each table, its columns are listed.
+Each column is listed on a separate line in the form Index;Data type;Name;Description.
+Index is the column's order in the table.
+Only some columns have names (for most object types, only columns with index 0 through 10 have names).
+Column descriptions will be added gradually.
+
+Objects_00000001.rdt - Table of objects of type 'Control Area'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000002.rdt - Table of objects of type 'Computer'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;WideString;;Unused
+13;WideString;;Address (hostname or IP address)
+14;WideString;;Hardware configuration
+15;Int32;;Name of the project window to appear as the first window after starting the project
+16;Int32;;Restrictions applied when no user is logged on
+17;Int32;;Unused
+18;WideString;;Directory for storing user profiles
+19;WideString;;Directory for storing window records
+20;WideString;;Unused
+21;Bool;;Set program and project language
+22;Int32;;Program language
+23;Int32;;Project language
+24;WideString;;Primary directory for storing the databases of alarms
+25;Int32;;SQL connection for storing the databases of alarms
+26;Bool;;Create archive files for the alarm/event database
+27;Bool;;Show alarm/event panel
+28;Bool;;Auto-hide panel after all alarms/events acknowledged
+29;Bool;;Show device name
+30;Bool;;Record postmort
+31;Int32;;Maximum record length (in hours)
+32;WideString;;Directory for saving and loading postmort records
+33;Bool;;Automatically update the project
+34;UInt8;;Type of location of the source project (0..source computer+shared directory name, 1..complete path to a shared directory, 2..Web server)
+35;Int32;;Name of the source computer
+36;WideString;;Shared directory name on the source computer
+37;WideString;;Complete path to a shared directory
+38;Int32;;Directories to update (directories are represented by the bits of an integer value)
+39;WideString;;List of project windows that should not be available on the computer
+40;Bool;;Save the last position and size of visualization windows
+41;UInt16;;Max. number of dynamically loaded windows that can be placed in the main panel at the same time
+42;UInt16;;Max. number of hist. trends that can be placed in the main panel at the same time
+43;UInt16;;Max. number of reports that can be placed in the main panel at the same time
+44;UInt16;;Max. number of windows in  the recently active window list
+45;Bool;;The project will run on a multi-monitor system
+46;UInt8;;Number of the monitor for project windows (0..monitor1, 1..monitor2,...)
+47;UInt8;;Number of the monitor for alarm/event windows (0..monitor1, 1..monitor2,...)
+48;UInt8;;Number of the monitor for trend windows (0..monitor1, 1..monitor2,...)
+49;UInt8;;Number of the monitor for report windows (0..monitor1, 1..monitor2,...)
+50;Bool;;Run a script when a user logs on
+51;Int32;;Name of the script to be run when a user logs on
+52;Int32;;Parameter passed to the script to be run when a user logs on
+53;Bool;;Run a script when a user logs off
+54;Int32;;Name of the script to be run when a user logs off
+55;Int32;;Parameter passed to the script to be run when a user logs off
+56;Bool;;Play a sound when a user logs on
+57;WideString;;Name of the sound file to be played when the user logs on
+58;Bool;;Play a sound when a user logs off
+59;WideString;;Name of the sound file to be played when a user logs off
+60;Bool;;Log on by a HW code sensor
+61;Int32;;Port number of the HW code sensor
+62;Bool;;Log on by a fingerprint sensor
+63;Bool;;Save data to MEM files for Web clients
+64;WideString;;Directory for saving MEM files for Web clients
+65;Int32;;Interval at which to save data to MEM files for Web clients (in milliseconds)
+66;Int32;;Port number of the SMTP server
+67;Int32;;SMTP server connection timeout (in milliseconds)
+68;WideString;;Name or address of the SMTP server
+69;WideString;;E-mail address of the sender
+70;WideString;;Name of the sender
+71;WideString;;Unused
+72;Bool;;Run SMS driver
+73;UInt16;;Unused
+74;Int32;;GSM device - COM port number
+75;UInt16;;GSM device - communication speed (1..300 Bd, 2..600 Bd, 3..1200 Bd, 4..2400 Bd, 5..4800 Bd, 6..9600 Bd, 7..19200 Bd, 8..38400 Bd, 9..57600 Bd, 10..115200 Bd)
+76;UInt8;;GSM device - data bit count
+77;UInt8;;GSM device - stop bit count
+78;UInt8;;GSM device - parity (0..none, 1..odd, 2..even)
+79;WideString;;SMS service center number
+80;Bool;;Run a script when a SMS message is received
+81;Int32;;Name of the script to be run when a SMS message is received
+82;Bool;;Focus the first alarm/event in the list
+83;Bool;;Enable activating the list of current alarms/events when an alarm/event is generated
+84;Bool;;Show event log while starting/terminating project
+85;Bool;;Show tool bar
+86;UInt8;;Authentication method (0..No authentication, 1..Normal password, 2..Encrypted password, 3..Kerberos/GSSAPI, 4..NTLM)
+87;WideString;;Outgoing e-mail account name
+89;Bool;;Enable to activate the virtual keyboard
+90;Bool;;Activate the virtual keyboard automatically on editing value
+91;UInt8;;Virtual keyboard size
+92;Bool;;Run a script when a text message is sent successfully
+93;Int32;;Name of the script to be run when a text message is sent successfully
+94;Bool;;Run a script when an error occurs while sending a text message
+95;Int32;;Name of the script to be run when an error occurs while sending a text message
+96;Bool;;Play alarm/event sounds
+97;Bool;;Position the virtual keyboard automatically on editing value
+98;Int32;;Interval at which to record complete data (in minutes)
+99;Bool;;Show menu bar
+100;Bool;;Show title bar
+101;Bool;;Specifies whether PIN is required by the GSM device's SIM card
+103;Bool;;Send alarm/event notifications to users via E-mail
+104;Bool;;Send alarm/event notifications to users via SMS
+105;Bool;;Notify users that an alarm/event occurred
+106;Int32;;Format string for the message to notify users that an alarm/event occurred
+107;Bool;;Notify users that an alarm/event ended
+108;Int32;;Format string for the message to notify users that an alarm/event ended
+109;Bool;;Notify users that an alarm/event was acknowledged
+110;Int32;;Format string for the message to notify users that an alarm/event was acknowledged
+111;UInt8;;Data Coding Scheme (0..7-bit coding, 1..8-bit coding, 2..16-bit coding)
+112;Bool;;Send multipart (long) SMS messages
+113;UInt8;;Alarm/event database type (0..file-based, 1..SQL-based)
+114;WideString;;Alarm/event table name
+115;Bool;;Show window border
+116;Bool;;Use as secondary server
+117;Int32;;Name of the primary server
+118;Int32;;Connection timeout (in milliseconds)
+119;Int32;;Primary server response timeout (in milliseconds)
+120;Int32;;Alarm/event synchronization timeout (in milliseconds)
+121;Int32;;Data table synchronization timeout (in milliseconds)
+122;UInt8;;Max. server connection loss count during synchronization
+123;Bool;;Run a script when the role of the server changes (active/standby)
+124;Int32;;Name of the script to be run when the role of the server changes (active/standby) 
+125;Int32;;Parameter passed to the script to be run when the role of the server changes (active/standby) 
+126;Bool;;Run a script when the servers connect
+127;Int32;;Name of the script to be run when the servers connect
+128;Int32;;Parameter passed to the script to be run when the servers connect
+129;Bool;;Run a script when the servers disconnect
+130;Int32;;Name of the script to be run when the servers disconnect
+131;Int32;;Parameter passed to the script to be run when the servers disconnect
+132;Bool;;Use alternative address for primary server
+133;WideString;;Alternative primary server address
+134;Int32;;Idle delay after failure to find the primary server computer on the network (in milliseconds)
+135;Int32;;Data update interval (in milliseconds)
+136;Bool;;Adopt primary server properties
+137;Int32;;Primary server property groups to be adopted (groups are represented by the bits of an integer value)
+138;UInt8;;Connection security (0..none, 1..STARTTLS, 2..SSL/TLS)
+139;Bool;;Log alarm/event text (as a text string, not only a text ID)
+140;UInt8;;Project language in which alarm/event text will be logged (0..active, 1..default, 2..specified)
+141;Int32;;Specified project language in which alarm/event text will be logged
+142;WideString;;Recipient E-mail address intended for testing SMTP server settings
+143;UInt8;;Main window position and size (0..custom, 1..primary monitor, 2..primary monitor working area, 3..desktop (all monitors))
+144;Int32;;Main window position and size - custom X position (in pixels)
+145;Int32;;Main window position and size - custom Y position (in pixels)
+146;Int32;;Main window position and size - custom width (in pixels)
+147;Int32;;Main window position and size - custom height (in pixels)
+148;UInt8;;Number of monitors above each other (monitor matrix row count)
+149;UInt8;;Number of monitors next to each other (monitor matrix column count)
+150;Bool;;Detect signal quality
+151;Int32;;Name of the tag that should receive signal quality (%)
+152;UInt8;;Resolution (0..the same as in the Project Options dialog, 1..another)
+153;Int32;;Another resolution - width
+154;Int32;;Another resolution - height
+155;Bool;;Automatically log on a user after project startup
+156;Int32;;Name of the user to be logged on automatically after project startup
+157;Bool;;Use alarm/event text font
+158;WideString;;Alarm/event text font
+159;Bool;;Export project to SQL database
+160;Int32;;SQL connection for exporting the project to SQL database
+161;Bool;;Connect to Maatrix service
+162;WideString;;Maatrix service ID
+164;Bool;;Run a script when Maatrix service completes
+165;Int32;;Name of the script to be run when Maatrix service completes
+166;Bool;;Execute an action when a user logs on
+167;Int32;;Name of the action to be executed when a user logs on
+168;Bool;;Execute an action when a user logs off
+169;Int32;;Name of the action to be executed when a user logs off
+170;UTF8String;;Access rights required for terminating the project
+171;Bool;;Alarm/event notifications to users - run a script
+172;Int32;;Alarm/event notifications to users - name of the script to be run
+173;Bool;;Start Web server and Web service
+174;Bool;;Enable the HTTP protocol
+175;Int32;;HTTP protocol port number
+176;Bool;;Enable the HTTPS protocol
+177;Int32;;HTTPS protocol port number
+178;UInt8;;SSL version (0..SSL 2.0, 1..SSL 2.0/3.0, 2..SSL 3.0, 3..TLS 1.0, 4..TLS 1.1, 5..TLS 1.2)
+180;Bool;;Servers don't use the same alarm/event table
+181;Int32;;Historical data update interval (in milliseconds)
+182;UInt8;;Virtual keyboard type (0..Reliance, 1..Windows)
+183;Bool;;Log internal alarms/events
+184;UInt8;;Unused
+185;Int32;;Unused
+186;Bool;;Use HTTPS -> HTTP reverse proxy server.
+187;UInt8;;Unused
+188;UTF8String;;Unused
+189;Bool;;Log information to file
+190;Bool;;Send information to Syslog servers
+191;UTF8String;;Syslog servers
+192;Bool;;Synchronize users with AD
+193;UTF8String;;AD servers
+194;Blob;;Certificate
+195;Blob;;Private key
+196;Blob;;SSL root certificate (CA)
+197;Blob;;Certificate password
+
+Objects_00000003.rdt - Table of objects of type 'User'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+13;UInt8;;Unused
+14;WideString;;HW code
+15;Bool;;Active user
+16;Bool;;User administrator
+17;Int32;;Unused
+18;Int32;;Restrictions acitvated when a user logs on
+19;Bool;;Log user log-on to alarm/event database
+20;Bool;;Log user log-off to alarm/event database
+21;Bool;;Set program and project language
+22;Int32;;Program language
+23;Int32;;Project language
+24;WideString;;Project language
+25;WideString;;Email
+26;UTF8String;;Groups of alarms/events that the user should be notified of
+27;UInt8;;Send alarm/event notifications via E-mail
+28;Int32;;Unused
+29;UInt8;;Send alarm/event notifications via SMS
+30;Int32;;Unused
+31;Bool;;Run a script when a user logs on
+32;Int32;;Name of the script to be run when a user logs on
+33;Int32;;Parameter passed to the script to be run when a user logs on
+34;Bool;;Execute an action when a user logs on
+35;Int32;;Name of the action to be executed when a user logs on
+36;Bool;;Run a script when a user logs off
+37;Int32;;Name of the script to be run when a user logs off
+38;Int32;;Parameter passed to the script to be run when a user logs off
+39;Bool;;Execute an action when a user logs off
+40;Int32;;Name of the action to be executed when a user logs off
+41;UTF8String;;Access rights
+42;UInt8;;Alarm/event notifications - run a script
+43;Int32;;Unused
+44;UInt8;;User authentication method (0..Reliance, 1..Windows)
+45;WideString;;Windows user domain
+46;Bool;;Use Windows user name
+47;WideString;;Windows user name
+48;Bool;;Change password
+49;Bool;;Password never expires
+50;Int64Time;;Password change time
+51;Bool;;Use roles
+52;UTF8String;;Roles
+53;Int32;;AD
+54;Bool;;Use AD user name
+55;WideString;;AD user name
+
+Objects_00000004.rdt - Table of objects of type 'Printer'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Bool;;Unused
+13;Bool;;Unused
+14;Bool;;Unused
+15;UTF8String;;Names of alarm/event groups for which the printer is intended
+
+Objects_00000005.rdt - Table of objects of type 'Window'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;WideString;;Window title text
+13;WideString;;Window file name
+14;UInt8;;Window type (0..Normal, 1..Dialog, 2..Top tray, 3..Bottom tray, 4..Left tray, 5..Right tray)
+15;Bool;;Whether it's a template
+16;Bool;;Load dynamically
+17;Bool;;Unused
+18;Bool;;Unused
+19;Int32;;Unused
+20;Int32;;Window title
+21;Bool;;Use the tag controlling the visibility of the window
+22;Int32;;Name of the tag controlling the visibility of the window
+23;Bool;;Negate the value of the digital-type tag controlling the visibility of the window
+
+Objects_00000006.rdt - Table of objects of type 'Alarm/Event'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Alarm/event type name
+13;Int32;;Name of the tag linked to the alarm/event
+14;UInt16;;Condition that generates the alarm/event (10..data change, 11..data increment, 12..data decrement, 20..digital high level, 21..digital low level, 30..upper critical limit, 31..upper warning limit, 32..lower warning limit, 33..lower critical limit)
+15;UInt16;;Device event type (BACnet, HIMA)
+16;Int32;;Text of the alarm/event
+17;UInt16;;Priority
+18;Bool;;Display the alarm/event in the list of current alarms/events
+19;Bool;;Log the alarm/event to alarm/event database
+20;Bool;;Print the alarm/event when it is generated (online print)
+21;Bool;;Require acknowledgment
+22;Int32;;Unused
+23;Bool;;Verify user on acknowledgment
+24;Bool;;Activate the list of current alarms when the alarm/event is generated
+25;Bool;;Associate a window with the alarm/event
+26;Int32;;Name of the window associated with the alarm/event
+27;Bool;;Play a sound when the alarm/event is generated
+28;WideString;;Name of the sound file to be played when the alarm/event is generated
+29;Bool;;Play a sound when the alarm/event becomes inactive
+30;WideString;;Name of the sound file to be played when the alarm/event becomes inactive
+31;Bool;;Run a script when the alarm/event is generated
+32;Int32;;Name of the script to be run when the alarm/event is generated
+33;Bool;;Run a script when the alarm/event is acknowledged by the operator
+34;Int32;;Name of the script to be run when the alarm/event is acknowledged by the operator
+35;Bool;;Run a script when the alarm/event becomes inactive
+36;Int32;;Name of the script to be run when the alarm/event becomes inactive
+37;Bool;;Associate a digital-type tag with the alarm/event
+38;Int32;;Name of the digital-type tag associated with the alarm/event
+39;Float64;;Analog value range minimum
+40;Float64;;Analog value range maximum
+41;Bool;;Inhibit the alarm/event by a digital-type tag
+42;Int32;;Name of the digital-type tag to be used to inhibit the alarm/event (prevents the alarm/event from being triggered)
+43;Bool;;Require writing a note before acknowledgment
+44;Bool;;Unused
+45;Int32;;Unused
+46;UTF8String;;Names of alarm/event groups to which the alarm/event belongs
+47;Bool;;Limit frequency of notifications (E-mail, SMS)
+48;UInt16;;Min. notification interval (in minutes)
+49;Bool;;Run Maatrix service when the alarm/event is generated
+50;UTF8String;;Access rights required for acknowledgment
+51;Bool;;Unused
+52;Bool;;Negate the value of the digital-type tag to be used to inhibit the alarm/event
+
+Objects_00000007.rdt - Table of objects of type 'Script'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;WideString;;Source code file name
+13;Bool;;Enable execution
+14;UInt16;;Script type (1..Time, 2..Event, 3..Key, 4..Data change, 5..Condition, 6..Periodic)
+15;UInt16;;Unused
+16;UInt16;;Priority
+17;Int32;;Max. execution time (ms)
+18;Int32;;Unused
+19;Int32;;Unused
+20;Int32;;Unused
+21;Int32;;Unused
+22;Int32;;Unused
+23;Int32;;Unused
+24;Int32;;Unused
+25;Int32;;Unused
+26;Bool;;Unused
+27;Int32;;Keyboard shortcut; it only applies to 'Key' scripts
+28;Int32;;Name of the tag that affects whether the script will run; it only applies to 'Data change' and 'Condition' scripts
+29;Int32;;Name of another tag that affects whether the script will execute; it only applies to 'Condition' scripts
+30;Bool;;Tag value comparison method (0..comparison with a specified value, 1..comparison with the value of another tag); it only applies to 'Condition' scripts
+31;UInt8;;Execution condition (0..<, 1..>, 2..=, 3..<>); it only applies to 'Condition' scripts
+32;Float64;;Value to be compared with the tag value; it only applies to 'Condition' scripts
+33;Int32;;First execution time in a day (s); it only applies to 'Time' scripts
+34;Int32;;Repeat interval (ms); it only applies to 'Time' and 'Condition' scripts
+35;Int32;;Repeat end time (ms); it only applies to 'Time' scripts
+36;Bool;;Execute only once (don't repeat); it only applies to 'Time' and 'Condition' scripts
+37;Bool;;First time execute only after specified interval; it only applies to 'Periodic' scripts
+38;Bool;;Don't run the script if only the tag's quality changed; it only applies to 'Data change' scripts
+39;Bool;;Run on thread initialization
+40;Int32;;Thread
+41;Bool;;Terminate after exceeding max. execution time
+42;Bool;;Log execution
+43;Bool;;Allow running from thin clients
+44;Bool;;Require confirmation
+45;UInt8;;Repeat end (0..repeat until midnight, 1..repeat until (hh:mm:ss)); it only applies to 'Time' scripts
+46;Bool;;Enable running from embedded Web browser
+
+Objects_00000008.rdt - Table of objects of type 'Communication Zone'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Register type
+13;Int32;;Zone address in the register
+14;Int32;;Length (in bytes)/Element count
+15;Int32;;Element length (in bytes)
+16;Int32;;Reading interval (in milliseconds)
+17;Bool;;Control reading the zone by a digital-type tag
+18;Int32;;Name of the tag controlling reading the zone
+19;Bool;;Reset the tag controlling reading the zone after detecting the leading edge
+20;Int32;;File number (Modbus)
+21;UInt16;;Addressing type (0..Wago, 1..Modbus) (Wago)
+22;UInt16;;Address size (0..X - Bool, 1..B - Byte, 2..W - Word, 3..D - DWord) (Wago)
+
+Objects_00000009.rdt - Table of objects of type 'Tag'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;WideString;;Technological name
+15;Int32;;Engineering units
+16;UInt8;;Tag kind (0..physical, 1..internal, 2..special physical, 3..user-defined (data structure), 4..special internal, 5..derived)
+17;Int32;;Data type
+18;Int32;;Tag address
+19;UInt8;;Byte number (0..LSB, 1..MSB)
+20;UInt8;;Bit number
+21;UInt16;;Register type
+22;Int32;;File number
+23;Int32;;Number of characters
+24;UInt8;;Number of decimal places (only for numeric-type tags)
+25;Int32;;Number of elements (only for array-type tags)
+26;UInt8;;Display format for integer tags (0..decimal, 1..hexadecimal, 2..binary)
+27;Bool;;Apply correction to the value
+28;UInt8;;Analog value correction type (0..k*x + q, 1..Min, Max)
+29;Float64;;Coefficient 'k' of the correction
+30;Float64;;Coefficient 'q' of the correction
+31;Float64;;Input range coefficient 'Min1'
+32;Float64;;Input range coefficient 'Max1'
+33;Float64;;Output range coefficient 'Min2'
+34;Float64;;Output range coefficient 'Max2'
+35;Bool;;Negate the value if digital (only for tags of type Bool and Array of Bool)
+36;WideString;;Tag identifier in OPC/OPC UA server (ItemID/NodeId), Address (DLMS, IEC62056, SNMP), Topic (MQTT), Symbolic name (Omron)
+37;Bool;;Enable sharing the tag using DDE
+38;WideString;;DDE Item ID (identifier to be used by a DDE server and DDE clients for the tag)
+39;Bool;;Save the value before terminating the project
+40;Bool;;Use an initial value for the tag
+41;WideString;;Initial value for the tag
+42;Bool;;Upper critical limit
+43;Float64;;Upper critical limit value
+44;Bool;;Dynamic upper critical limit
+45;Int32;;Name of the tag controlling the upper critical limit
+46;Bool;;Upper warning limit
+47;Float64;;Upper warning limit value
+48;Bool;;Dynamic upper warning limit
+49;Int32;;Name of the tag controlling the upper warning limit
+50;Bool;;Lower warning limit
+51;Float64;;Lower warning limit value
+52;Bool;;Dynamic lower warning limit
+53;Int32;;Name of the tag controlling the lower warning limit
+54;Bool;;Lower critical limit
+55;Float64;;Lower critical limit value
+56;Bool;;Dynamic lower critical limit
+57;Int32;;Name of the tag controlling the lower critical limit
+58;Bool;;Unused
+59;UInt16;;Unused
+60;Bool;;Log write commands for tag
+61;Int32;;Text to be logged on write command to tag
+62;Bool;;Allow reading the value
+63;Bool;;Allow writing the value
+64;Bool;;Update value after write (OPC, OPC UA)
+65;Int32;;Value update interval (in milliseconds)
+66;Int32;;Text to be displayed instead of logical 1
+67;Int32;;Text to be displayed instead of logical 0
+68;Int32;;Connection timeout (in milliseconds)
+69;UInt16;;Pre-write priority - static (value) (wsr3000)
+70;UInt16;;Post-write priority - static (value) (wsr3000)
+71;Bool;;Dynamic pre-write priority (wsr3000)
+72;Int32;;Name of the tag controlling pre-write priority (wsr3000)
+73;Bool;;Dynamic post-write priority (wsr3000)
+74;Int32;;Name of the tag controlling post-write priority (wsr3000)
+75;Float64;;Hysteresis
+76;Int32;;Report category
+77;WideString;;Card code
+78;WideString;;Parts of address separated by a slash
+79;Bool;;It's a status, not a value (Johnson Controls)
+80;WideString;;Unused
+81;Int32;;Unused
+82;Int32;;Unused
+83;Bool;;Unused
+84;Bool;;Unused
+85;Bool;;Unused
+86;Bool;;Negate the value
+87;Bool;;Unused
+88;Bool;;Counter-type value
+89;Bool;;BCD counter-type value
+90;UInt16;;Counter type (0..absolute, 1..6 minute, 2..1 hour, 3..1 day (from 6:00 a.m. till 6:00 a.m.), 4..1 day (from 6:00 a.m.), 5..1 month)
+91;Bool;;Summary alarm automatic acknowledgment
+92;Bool;;Digital alarm tag
+93;Bool;;Unused
+94;Bool;;Unused
+95;Bool;;Unused
+96;Bool;;Unused
+97;Float64;;Unused
+98;Float64;;Unused
+99;Float64;;Physical range - minimum
+100;Float64;;Physical range - maximum
+101;Bool;;Transfer current state
+102;Bool;;Transfer archive state
+103;Bool;;Unused
+104;UInt16;;Unused
+105;Bool;;Unused
+106;Int32;;Unused
+107;Float64;;Unused
+108;Bool;;Unused
+109;UInt16;;Addressing method
+110;UInt16;;Address unit length (0..X - Bool, 1..B - Byte, 2..W - Word, 3..D - DWord
+111;Int32;;Number of matrix rows (only for array-type tags of AMiT devices)
+112;Int32;;Number of matrix columns (only for array-type tags of AMiT devices)
+113;Int32;;Alarm/event start delay (in milliseconds)
+114;Int32;;Information object address for writing (IEC104)
+115;Int32;;Type identification for writing (IEC104)
+116;Int32;;Qualifier (IEC104)
+117;Bool;;Unused
+118;Int32;;Unused
+119;Bool;;Unused
+120;Bool;;Unused
+121;Int32;;Unused
+122;Bool;;Unused
+123;Bool;;Unused
+124;Int32;;Unused
+125;Bool;;Enable changing Delta parameter (IEC104)
+126;Bool;;Secure changing Delta parameter (IEC104)
+127;Int32;;Unused
+128;Bool;;Enable sharing the tag using OPC
+129;Bool;;Allow using the tag at runtime
+130;Int32;;Storage number
+131;Int32;;Tariff
+132;Int32;;Subsystem
+133;Int32;;Value type
+134;Int32;;Data length and encoding
+135;Int32;;VIF
+136;UInt8;;VIFE1
+137;UInt8;;VIFE2
+138;UInt8;;VIFE3
+139;UInt8;;VIFE4
+140;UInt8;;VIFE5
+141;UInt8;;Type of text to be logged to alarm/event database (0..standard, 1..custom)
+142;UInt16;;Object type
+143;UInt16;;Property identifier
+144;Bool;;Use COV function
+145;Float64;;Minimum change of value for sending data by using the COV function
+146;Int32;;Alarm/event end delay (in milliseconds)
+147;Bool;;Prohibit violating bounds when setting value by user
+148;Float64;;Unused
+149;Bool;;Unused
+150;Int32;;Name of the tag controlling the minimum of the range when setting the value by the user
+151;Float64;;Unused
+152;Bool;;Unused
+153;Int32;;Name of the tag controlling the maximum of the range when setting the value by the user
+154;UInt8;;Display format for date/time tags (bit 0..show milliseconds)
+155;UInt8;;Information number for reading
+156;UInt8;;Information number for writing
+157;Bool;;Run a script when the tag's value changes
+158;Int32;;Name of the script to be run when the tag's value changes
+159;Bool;;Run a script when the tag's quality changes
+160;Int32;;Name of the script to be run when the tag's quality changes
+161;Bool;;Run a script when the tag's time stamp changes
+162;Int32;;Name of the script to be run when the tag's time stamp changes
+163;Bool;;Log unsuccessful write commands for tag
+164;Bool;;Force value change on write
+165;UInt8;;Archive number
+166;Int32;;Position in the archive (in bytes)
+167;Bool;;Current alarm/event count: filter by visibility (hidden/shown)
+168;UInt8;;Current alarm/event count: visibility (0..hidden, 1..shown)
+169;Bool;;Current alarm/event count: filter by state (inactive/active)
+170;UInt8;;Current alarm/event count: state (0..inactive, 1..active)
+171;Bool;;Current alarm/event count: filter by acknowledgment (unacknowledged/acknowledged)
+172;UInt8;;Current alarm/event count: acknowledgment (0..unacknowledged, 1..acknowledged)
+173;Bool;;Current alarm/event count: filter by device
+174;UInt8;;Current alarm/event count: device filter type (0..this device, 1..specified devices)
+175;UTF8String;;Current alarm/event count: device names
+176;Bool;;Current alarm/event count: filter by alarm/event type
+177;UTF8String;;Current alarm/event count: alarm/event type names
+178;Bool;;Current alarm/event count: filter by alarm/event groups
+179;UTF8String;;Current alarm/event count: alarm/event group names
+180;Int32;;ASDU address (IEC104)
+181;Bool;;Use alias
+182;UInt8;;Units
+183;Int32;;Unused
+184;Bool;;Evaluate the tag on the thin client side
+185;Bool;;Enable sharing the tag with custom applications through the Web service
+186;Bool;;Enable sharing the tag with thin clients
+187;UInt8;;Time stamp base (0..UTC, 1..UTC + offset, 2..local time)
+188;Int16;;Time stamp base offset from UTC (in minutes)
+189;WideString;ExternalId;
+190;Int32;;Daily archive - position in the archive (Sevbus)
+191;Bool;;Run a script when the tag's data is received from the communication driver
+192;Int32;;Name of the script to be run when the tag's data is received from the communication driver
+193;Bool;;Hourly archive (Motorola)
+194;Bool;;Daily archive (Motorola)
+195;Int32;;Hourly archive - address (Motorola)
+196;Int32;;Daily archive - address (Motorola)
+197;UInt8;;Channel number (Sevbus)
+198;Bool;;Hourly extremes (Sevbus)
+199;Bool;;Hourly extremes - item number (Sevbus)
+200;UInt16;;Daily extremes (Sevbus)
+201;UInt16;;Daily extremes - item number (Sevbus)
+202;UInt8;;Type of data in the archive (0..value, 6..time of value)
+203;UInt8;;Type of value range (0..tag data type, 1..value list)
+204;Bool;;Disallow out-of-range value
+205;Int32;;Name of the array-type tag whose value controls the value list
+206;Bool;;Use the tag whose value controls the value list item count
+207;Int32;;Name of the tag whose value controls the value list item count
+208;Int32;;Value list item count
+209;Bool;;Read archive data from Trend-Log object
+210;Int32;;Trend-Log object instance number
+211;Int32;;ID of data table for data from Trend-Log object
+212;UInt8;;Time stamp precision (2..milliseconds, 3..seconds, 4..minutes)
+213;Int32;;Derived tag: name of the source tag
+214;Int32;;Derived tag of type Array element: element index
+215;Bool;;Tag is transferred between server and thin clients
+216;Int32;;State list name
+217;Bool;;Value in BCD format
+218;Bool;;Control the value of K by a tag
+219;Int32;;Name of the tag controlling the value of K
+220;Bool;;Control the value of Q by a tag
+221;Int32;;Name of the tag controlling the value of Q
+222;Bool;;Control the input range by a tag
+223;Int32;;Name of the tag controlling the value of Min1
+224;Int32;;Name of the tag controlling the value of Max1
+225;Bool;;Control the output range by a tag
+226;Int32;;Name of the tag controlling the value of Min2
+227;Int32;;Name of the tag controlling the value of Max2
+228;UInt8;;Numeric tag format (0..decimal, 1..hexadecimal)
+229;WideString;;Name of the parameter containing tag value (IoT)
+230;UInt8;;Reliance software type (0..Runtime software, 1..Thin clients)
+231;Bool;;Use alarm/event start delay
+232;Bool;;Use alarm/event end delay
+233;UInt8;;Derived tag of type Bit: bit number
+234;Bool;;Read tag value (IoT)
+235;Bool;;Read tag identification (IoT)
+236;WideString;;Name of the parameter containing tag identification (IoT)
+237;Bool;;Read tag time stamp (IoT)
+238;WideString;;Name of the parameter containing tag time stamp (IoT)
+239;Bool;;The string containing an ID can also contain other characters (IoT)
+240;UTF8String;;Tag list
+241;Bool;;Perform only write commands that change value
+242;UTF8String;;Access rights
+
+Objects_0000000A.rdt - Table of objects of type 'Connected Device'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Bool;;Enable the device at runtime
+15;Bool;;Communicate to the device at runtime
+16;UInt16;;Unused
+17;Bool;;Unused
+18;Int32;;Unused
+19;Bool;;Unused
+20;Int32;;Unused
+21;Bool;;Unused
+22;Int32;;Unused
+23;Int32;;Unused
+24;WideString;;Unused
+25;Int32;;Unused
+
+Objects_0000000B.rdt - Table of objects of type 'Communication Channel'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Connection type (0..Direct, 1..Indirect, 2..MEM file)
+13;UInt16;;Communication channel type (1..Serial (COM port), 2..Dial-up (modem), 3..Network (Ethernet), 5..Network (Ethernet)/serial (RS-232, RS-485))
+14;Int16;;Communication channel order in the channel list (0..highest priority)
+15;Bool;;Unused
+16;Bool;;Driver connection type (0..Locally, 1..On remote computer)
+17;Int32;;Driver computer name
+18;WideString;;DriverParamFileDir
+19;WideString;;DDE server (DDE)
+20;WideString;;DDE topic (DDE)
+21;Bool;;Control communication to the device by a tag
+22;Int32;;Name of the tag controlling communication to the device
+23;Bool;;Use a tag to receive the current communication status
+24;Int32;;Name of the tag that will receive the current communication status
+25;Bool;;Run a script when a connection to the device is established (for the first time)
+26;Int32;;Name of the script to run when a connection to the device is established (for the first time)
+27;Int32;;Parameter passed to the script to be run when a connection to the device is established (for the first time)
+28;Bool;;Run a script on error in connection to the device
+29;Int32;;Name of the script to run on error in connection to the device
+30;Int32;;Parameter passed to the script to be run on error in connection to the device
+31;Bool;;Run a script when a connection to the device is restored
+32;Int32;;Name of the script to run when a connection to the device is restored
+33;Int32;;Parameter passed to the script to be run when a connection to the device is restored
+34;Bool;;Control the synchronization of device time by a tag
+35;Int32;;Name of the tag controlling the synchronization of device time
+36;Bool;;Reset the tag controlling the synchronization of device time
+37;Bool;;Perform a regular synchronization of device time
+38;Int32;;Time at which to perform a regular synchronization of device time
+39;Int32;;Data offset in the MEM file
+40;Int32;;Interval at which data is read from the MEM file (s)
+41;WideString;;Path to the MEM file
+42;Int32;;Server connection group
+43;Bool;;Enable sending commands from the client computer
+44;Int32;;DataUpdateInterval
+45;Int32;;Communication error evaluation delay (ms)
+46;Bool;;Do not log communication events (error, restore)
+47;Bool;;Do not show communication events (error, restore)
+48;Bool;;Ignore alarms from driver
+49;Int32;;Device address
+50;WideString;;Network (Ethernet) - Device IP address/URL
+51;UInt16;;Network (Ethernet) - Communication protocol type (0..TCP/IP, 1.UDP)
+52;Int32;;AdapterNum
+53;Int32;;The list of COM ports for dial-up connection to the device
+54;Int32;;Serial (COM port) - Port number
+55;Int32;;Network (Ethernet) - TCP/IP port
+56;Int32;;Sítový (Ethernet) - UDP port
+57;UInt16;;Serial (COM port) - Communication speed
+58;UInt8;;Serial (COM port) - Parity
+59;Int32;;Communication timeout (ms)
+60;Int32;;Communication test interval (s)
+61;Int32;;CPU status (active/standby) check interval (only for TC700, CP7005) (ms) (Teco)
+62;UInt16;;Dial-up (modem) - Provider
+63;WideString;;Dial-up (modem) - Phone number
+64;Bool;;Dial-up (modem) - Control the phone number by a tag
+65;Int32;;Dial-up (modem) - Name of the tag controlling the phone number
+66;UInt16;;Dial-up (modem) - Repeat call count
+67;Bool;;Dial-up (modem) - Limit connection time
+68;Int32;;Dial-up (modem) - Maximum connection time (s)
+69;WideString;;Mosaic_ProjectGroup
+70;WideString;;Mosaic_Project
+71;Bool;;Override device address specified in the Device Manager
+72;Bool;;Network (Ethernet) - Override device IP address/URL specified in the Device Manager
+74;Int32;;Offset (AMiT)
+75;Int32;;Interval between two sent packets (ms) (AMiT)
+76;Int32;;Serial (COM port) - Response first byte timeout (ms) (Sauter)
+77;Int32;;Serial (COM port) - Response last byte timeout (ms) (Sauter)
+78;Int32;;Network (Ethernet)/serial (RS-232, RS-485) - Short response timeout (ms) (Sauter)
+79;Int32;;Network (Ethernet)/serial (RS-232, RS-485) - Long response timeout (ms) (Sauter)
+80;Bool;;Serial (COM port) - Communication through virtual serial port (Sauter)
+81;Bool;;Network (Ethernet) - Accept connection in server mode only
+82;WideString;;Network (Ethernet) - IP addresses
+83;Int32;;Received I-frame acknowledgment timeout (t2) (ms) (IEC104)
+84;Int32;;Maximum unacknowledged received I-frame count (w) (IEC104)
+85;Int8;;Network (Ethernet) - UDP reception port (0..Automatically assigned by operating system, 1..Same as transmission port, 2..Other)
+86;Int32;;Network (Ethernet) - UDP reception port
+87;UInt8;;Serial (COM port) - Data bits
+88;UInt8;;Serial (COM port) - Stop bits
+89;Bool;;Network (Ethernet)/serial (RS-232, RS-485) - Control serial link parameters via NVT protocol
+90;Bool;;Network (Ethernet) - Serial communication mode
+91;Bool;;Use Modbus tunnel (Elgas2)
+92;Int32;;User ID (Elgas2)
+94;UInt8;;Rack (Siemens)
+95;UInt8;;Slot (Siemens)
+96;UInt16;;TSAP PC (Siemens)
+97;UInt16;;TSAP PLC (Siemens)
+98;Bool;;Override the value of Rack, Slot, TSAP PC, and TSAP PLC specified in the Device Manager (Siemens)
+99;UInt16;;Network number (BACnet, Mitsubishi)
+100;Int64;;MAC address (BACnet)
+101;Int32;;Maximum unacknowledged sent I-frame count (k) (IEC104)
+102;Bool;;Store the Device column of communication packet list in an array-type tag
+103;Int32;;Name of the tag that will receive the Device column of communication packet list
+104;Bool;;Store the Packet column of communication packet list in an array-type tag
+105;Int32;;Name of the tag that will receive the Packet column of communication packet list
+106;Bool;;Store the Length column of communication packet list in an array-type tag
+107;Int32;;Name of the tag that will receive the Length column of communication packet list
+108;Bool;;Store the Comment column of communication packet list in an array-type tag
+109;Int32;;Name of the tag that will receive the Comment column of communication packet list
+110;Bool;;Store the Time column of communication packet list in an array-type tag
+111;Int32;;Name of the tag that will receive the Time column of communication packet list
+112;Bool;;Store text colors of communication packet list in an array-type tag
+113;Int32;;Name of the tag that will receive text colors of communication packet list
+114;Bool;;Serial (COM port) - Control RTS signal
+115;UInt8;;Communication error evaluation method (0..After exceeding bad communication count, 1..After elapsing time since last successful communication)
+116;UInt32;;Max. bad communication count
+117;UInt32;;Max. time since last successful communication (s)
+118;Bool;;Refresh data transfer (IEC104)
+119;Int32;;Data transfer refresh interval (s) (IEC104)
+120;WideString;;Network (Ethernet) - network adapter IP address
+121;Bool;;Network (Ethernet) - Modem communication mode
+122;Bool;;Serial (COM port) - Control DTR signal
+123;WideString;;ID - string for device identification on the network (IoT)
+124;WideString;;ID parameter name (IoT)
+125;UInt32;;Max. communication packet length
+126;Bool;;Network (Ethernet) - Use this network adapter (IP address)
+127;Bool;;Use authentication (MQTT)
+128;WideString;;User name (MQTT)
+130;Bool;;The string containing an ID can also contain other characters (IoT)
+131;UInt16;;Max. object count to read concurrently
+
+Objects_0000000C.rdt - Table of objects of type 'Device'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Type
+13;UInt16;;Model
+14;Int32;;Address
+15;Int32;;Island address (wsr3000)
+16;Int32;;Superior device address (wsr3000)
+17;WideString;;IP address
+18;WideString;;Phone number (Elcor, Datcom, QMD, MPC, TMC)
+19;WideString;;Address (IEC62056), Topic prefix (MQTT), Authorization code (DIO3000)
+20;Int32;;Port (Datcom)
+21;Int32;;Primary computer name (DIO3000)
+22;Bool;;Remote device (wsr3000)
+23;UInt16;;Retranslation count (DMB)
+24;Int32;;Unused
+25;Int32;;Unused
+26;Int32;;Unused
+27;Int32;;Unused
+28;Int32;;Unused
+29;WideString;;OPC server Prog ID (OPC)
+30;WideString;;OPC server Class ID (OPC)
+31;Bool;;Import tags from a remote computer (OPC)
+32;WideString;;Computer (host name or IP address) (OPC)
+33;WideString;;DDE server name (DDE)
+34;Bool;;Enable reading/writing data (Teco - Databox - reading/writing, Modbus - extended memory - reading, Sauter - reading)
+35;Int32;;Name of the tag controlling the address of the data (Teco, Modbus, Sauter)
+36;Int32;;Name of the tag controlling the length (in bytes) of the data (Teco, Modbus)
+37;Int32;;Name of the tag controlling reading/writing the data (Teco, Modbus, Sauter)
+38;Int32;;Name of the tag to be used for storing the read data (Teco, Modbus, Sauter) or storing the data to be written (Teco)
+39;Int32;;Name of the tag indicating the current status of reading/writing the data (Teco, Modbus, Sauter)
+40;Bool;;Swap bytes (Modbus)
+41;Bool;;Swap words (Modbus)
+42;UInt16;;Supported communication functions (Modbus, MBus, BACnet)
+43;UInt8;;Tag quality determination method (0..assume quality from communication driver, 1..determine quality based on time stamp)
+44;Int32;;Maximum age for data to be considered valid (in seconds)
+45;Bool;;Unused
+46;Bool;;Automatically generate ItemID/NodeId for nested tags (OPC, OPC UA)
+47;WideString;;ItemID/NodeId delimiter (OPC, OPC UA)
+48;UInt8;;Time stamp base (0..UTC, 1..UTC + offset, 2..local time)
+49;Int16;;Time stamp base offset from UTC (in minutes)
+50;UInt8;;Device address size [byte count] (IEC104, DLMS)
+51;UInt8;;Tag address size [byte count] (IEC104)
+52;UInt8;;Transfer cause size [byte count] (IEC104)
+53;Bool;;Enable block reading (Johnson Controls DX)
+54;Int32;;Name of the tag controlling the file number of the data (Modbus)
+55;Bool;;Null-terminated String tags
+56;Int32;;Name of the tag controlling the data word of the data (Sauter)
+57;UInt16;;Write priority
+58;UInt16;;Maximum APDU size
+59;WideString;;Access code (Modbus InteliDrive EM, IEC62056, DLMS)
+60;Int32;;COV activation interval [s] (BACnet)
+61;Bool;;Require acknowledged COV messages (BACnet)
+62;Bool;;Send general query after connect (IEC104)
+63;UInt8;;Data type conversion (0..conversion performed by OPC client, 1..conversion performed by OPC server)
+64;UInt8;;Rack (Siemens)
+65;UInt8;;Slot (Siemens)
+66;Bool;;Reset message counters when data transfer interrupts (IEC104)
+67;Bool;;Read all data from the device (IEC62056)
+68;Bool;;Wake up the device before establishing a connection (IEC62056)
+69;Bool;;Binary archives (Elgas2)
+70;Bool;;Hourly archives (Sevbus) or data archives (Elgas2)
+71;Bool;;Daily archives (Elgas2, Motorola MOSCAD, Sevbus)
+72;Int32;;Name of the data table for logging binary archives
+73;Int32;;Name of the data table for logging hourly archives or data archives
+74;Int32;;Name of the data table for logging daily archives
+75;UInt16;;TSAP PC (Siemens)
+76;UInt16;;TSAP PLC (Siemens)
+77;Bool;;Add OPC groups to OPC server as inactive (OPC)
+78;Bool;;Check real-time data time stamp sequence (IEC104)
+79;Bool;;Unused
+80;Bool;;Unused
+81;Bool;;Unused
+82;Bool;;Unused
+83;Bool;;Unused
+84;Bool;;Unused
+85;Bool;;Unused
+86;Bool;;Unused
+87;Bool;;Unused
+88;Bool;;Unused
+89;Int32;;Unused
+90;Int32;;Unused
+91;Int32;;Unused
+92;Int32;;Unused
+93;Int32;;Unused
+94;Int32;;Unused
+95;Int32;;Unused
+96;Int32;;Unused
+97;Int32;;Unused
+98;Int32;;Unused
+99;UInt8;;Date format (0..'MM/DD/YY', 1..'DD/MM/YY') (Omni)
+100;Bool;;Use the same value of ASDU address for all tags defined in this device (IEC104)
+101;Bool;;Swap doublewords (Modbus)
+102;Int32;;Data validity interval (DMB)
+103;WideString;ExternalId;
+104;Bool;;Device with two measuring channels (Sevbus)
+105;Bool;;Hourly archives (Motorola MOSCAD) or hourly extreme archives (Sevbus)
+106;Bool;;Daily extreme archives (Sevbus)
+107;Int32;;Name of the data table for logging hourly archives or hourly extreme archives
+108;Int32;;Name of the data table for logging daily extreme archives
+109;WideString;;Endpoint URL (OPC UA)
+110;UInt8;;Security mode (1..None, 2..Digital signature, 3..Digital signature and encryption) (OPC UA)
+111;UInt8;;Security policy (0..None, 1..Basic256, 2..Basic128Rsa15) (OPC UA)
+112;UInt8;;Message encoding (0..Binary, 1..XML) (OPC UA)
+113;UInt8;;Authentication (0..None, 1..Name and password, 2..Certificate) (OPC UA)
+114;WideString;;Authentication - Name (OPC UA)
+115;WideString;;Authentication - Password (OPC UA)
+116;WideString;;Authentication - Certificate file name (OPC UA)
+117;Int32;;Max. time difference from the current computer time so that data would be processed (in seconds)
+118;UInt32;;Reading interval for class 0 data (DNP3)
+119;UInt32;;Reading interval for class 1 data (DNP3)
+120;UInt32;;Reading interval for class 2 data (DNP3)
+121;UInt32;;Reading interval for class 3 data (DNP3)
+122;UInt16;;Data block reading - Max. number of bits read in one communication packet (Mitsubishi)
+123;UInt16;;Data block reading - Max. number of words read in one communication packet (Mitsubishi)
+124;UInt16;;Data block reading - Max. size of unused bit block (Mitsubishi)
+125;UInt16;;Data block reading - Max. size of unused word block (Mitsubishi)
+126;Blob;;Archive (Modbus)
+127;WideString;;ItemID/NodeId prefix (OPC, OPC UA)
+128;Bool;;Enable reading events from device (HIMA)
+129;Int32;;Reading interval for device events (HIMA)
+130;UInt8;;Communication protocol type (Omron)
+131;UInt8;;Units in which the OPC/OPC UA server returns the values of tags of type Time, TimeSpan, Array of Time, and Array of TimeSpan. (0..days, 1..milliseconds) (OPC, OPC UA)
+132;Bool;;Generate alarms/events from archive data
+133;Bool;;Set access level (GE Fanuc)
+134;UInt8;;Access level (GE Fanuc)
+135;Bool;;Set connection group number after connect
+136;UInt8;;Connection group number
+137;UInt8;;Development environment compatibility
+138;Bool;;Vyhodnocovat události pouze s platnou casovou znackou (HIMA, BACnet)
+139;Blob;;Datové archivy (Omni)
+140;Bool;;Povolit spontánní zprávy
+
+Objects_0000000D.rdt - Table of objects of type 'Connected Data Table'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;WideString;;Primary directory
+15;WideString;;Secondary directory
+16;UInt8;;Connection type (0..Direct, 1..Indirect)
+17;Bool;;Log data
+18;Bool;;Create archive files
+19;Bool;;Delete oldest archive files
+20;Int32;;Max. archive file count
+21;Int32;;Server connection group
+22;Bool;;Limit downloaded archive file count
+23;Int32;;Max. archive file count
+24;Int32;;Data update interval (in seconds)
+25;Int32;;SQL connection name
+26;WideString;;Temporary data directory
+27;Bool;;Run a script when data is received from the server
+28;Int32;;Name of the script to be run when data is received from the server
+29;Int32;;Parameter passed to the script to be run when data is received from the server
+30;Bool;;Delete oldest data
+31;Int32;;Max. data age (day count)
+
+Objects_0000000E.rdt - Table of objects of type 'Data Table'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;WideString;;Physical table name
+13;UInt16;;Database table type (0..Paradox, 1..DBase, 2..SQL)
+14;Bool;;Not indexed (no index files are created)
+15;UInt8;;Archive file type (0..monthly, 1..daily, 3..none)
+16;UInt8;;Record acquisition method (0..not specified, 1..sample current data, 2..read time-stamped data from device)
+17;UInt8;;Record time stamp type (0..computer system time, 1..tag controlled
+18;Int32;;Name of the tag controlling records' time stamp
+19;UInt8;;Sampling type (0..periodic, 1..tag controlled, 2..script controlled)
+20;Int32;;Sampling interval (in milliseconds)
+21;Int32;;Name of the tag controlling sampling
+22;Bool;;Reset the tag controlling sampling after detecting the leading edge
+23;Bool;;Enable to control blocking sampling by a digital-type tag
+24;Int32;;Name of the tag controlling blocking sampling
+25;Bool;;Block sampling if one or more tags has an invalid value'
+26;Bool;;Enable data delay
+27;Int32;;Data delay (in seconds)
+28;Int32;;Saving interval (in milliseconds)
+29;UInt8;;Time stamp base (0..UTC, 1..UTC + offset, 2..local time)
+30;Int16;;Time stamp base offset from UTC (in minutes)
+31;UInt8;;Reading type (0..periodic, 1..tag controlled)
+32;Int32;;Reading interval (in minutes)
+33;Int32;;Name of the tag controlling reading
+34;Bool;;Reset the tag controlling reading after detecting the leading edge
+35;Bool;;Unused
+36;Int32;;Max. age of data read from device (in seconds)
+37;Bool;;Enable to write time stamp of last record to tag
+38;Int32;;Name of the tag (of type DateTime) that should receive the last record's time stamp
+39;Bool;;Convert time stamp of the last record to local time
+40;Bool;;Control the interval of reading time-stamped data from device by a tag
+41;Int32;;Name of the tag controlling the interval of reading time-stamped data from device (in minutes)
+42;Int32;;Unused
+43;Bool;;Store time stamp also as date and time
+44;Bool;;Redundant table
+
+Objects_0000000F.rdt - Table of objects of type 'Data Table Field'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;UInt8;;Physical field naming type (1..custom name, 2..automatically generated name, 3..use tag's engineering name)
+15;WideString;;Custom name for the physical field
+
+Objects_00000010.rdt - Table of objects of type 'Connected Trend'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000011.rdt - Table of objects of type 'Trend'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Title
+13;Bool;;Use the trend's name as a title
+14;UInt16;;Unused
+15;UInt16;;Display style (0..value count, 1..time range)
+16;Int32;;Value count/Hour count
+17;Int32;;Background color
+18;Int32;;Ruler color
+19;UInt8;;Ruler width
+20;Bool;;Whether the axis is automatic
+21;UInt8;;What is automatic on the axis (0..minimum and maximum, 1..minimum, 2..maximum)
+22;Float64;;Axis minimum
+23;Float64;;Axis maximum
+24;Bool;;Hide vertical axis
+25;WideString;;Title font
+26;Bool;;Trend vertical axis custom title
+27;Int32;;Trend axis title
+28;Bool;;Automatically position series vertical axes
+29;Int16;;Axis position (%)
+30;Int16;;Axis position: start (%)
+31;Int16;;Axis position: end (%)
+32;UInt8;;Unused
+33;Int32;;Unused
+34;UInt8;;Method used to automatically position series vertical axes (0..horizontal, 1..vertical)
+
+Objects_00000012.rdt - Table of objects of type 'Trend Series'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Series color
+15;UInt8;;Line width
+16;Bool;;Unused
+17;Bool;;Whether the axis is automatic
+18;UInt8;;What is automatic on the axis (0..minimum and maximum, 1..minimum, 2..maximum)
+19;Float64;;Axis minimum
+20;Float64;;Axis maximum
+21;Bool;;Hide vertical axis
+22;UInt16;;Order in trend legend
+23;Bool;;Series vertical axis custom title
+24;Bool;;Use series alias or name as axis title
+25;Int32;;Series vertical axis title
+26;UInt8;;Chart type (0..line, 1..bar, 2..area)
+27;Int16;;Axis position (%)
+28;Int16;;Axis position: start (%)
+29;Int16;;Axis position: end (%)
+30;UInt8;;Trend chart axis type (0..vertical axis of the parent trend chart, 1..custom axis, 2..selected axis)
+31;Int32;;Name of axis to be used as series vertical axis
+
+Objects_00000013.rdt - Table of objects of type 'Real-Time Trend'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Visible point count
+13;UInt8;;Update type (0..periodic, 1..tag controlled)
+14;Int32;;Update interval (in milliseconds)
+15;Int32;;Name of the tag controlling updating the trend
+16;Bool;;Reset the tag controlling updating the trend after detecting the leading edge
+17;Bool;;Enable to control blocking updating the trend by a digital-type tag
+18;Int32;;Name of the tag controlling blocking updating the trend
+19;Bool;;Control deleting chart data by a digital-type tag
+20;Int32;;Name of the tag controlling deleting trend data
+21;Bool;;Reset the tag controlling deleting chart data after detecting the leading edge
+22;Bool;;Automatic time axis
+23;Bool;;Whether the axis is automatic
+24;UInt8;;What is automatic on the axis (0..minimum and maximum, 1..minimum, 2..maximum)
+25;Float64;;Axis minimum
+26;Float64;;Axis maximum
+27;Bool;;Hide vertical axis
+28;Bool;;Control axis minimum by a tag
+29;Int32;;Name of the tag controlling the axis minimum
+30;Bool;;Control axis maximum by a tag
+31;Int32;;Name of the tag controlling the axis maximum
+32;Bool;;Trend vertical axis custom title
+33;Int32;;Trend axis title
+34;Bool;;Automatically position series vertical axes
+35;Int16;;Axis position (%)
+36;Int16;;Axis position: start (%)
+37;Int16;;Axis position: end (%)
+38;UInt8;;Method used to automatically position series vertical axes (0..horizontal, 1..vertical)
+
+Objects_00000014.rdt - Table of objects of type 'Real-Time Trend Series'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Series color
+15;UInt8;;Line width
+16;UInt16;;Order in chart legend
+17;Bool;;Trend chart axis type (0..vertical axis of the parent trend chart, 1..custom axis)
+18;Bool;;Whether the axis is automatic
+19;UInt8;;What is automatic on the axis (0..minimum and maximum, 1..minimum, 2..maximum)
+20;Float64;;Axis minimum
+21;Float64;;Axis maximum
+22;Bool;;Hide vertical axis
+23;Bool;;Control axis minimum by a tag
+24;Int32;;Name of the tag controlling the axis minimum
+25;Bool;;Control axis maximum by a tag
+26;Int32;;Name of the tag controlling the axis maximum
+27;Bool;;Series vertical axis custom title
+28;Bool;;Use series alias or name as axis title
+29;Int32;;Series vertical axis title
+30;Int16;;Axis position (%)
+31;Int16;;Axis position: start (%)
+32;Int16;;Axis position: end (%)
+
+Objects_00000015.rdt - Table of objects of type 'Connected Report'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000016.rdt - Table of objects of type 'Report'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Name of the data table whose data is displayed by the report
+13;Bool;;Whether the report has a title
+14;Int32;;Title
+15;Bool;;Use the report's name as a title
+16;Int32;;Title background color
+17;UInt8;;Title alignment (0.. to the left, 1..to the center, 2..to the right)
+18;UInt16;;Title bar height
+19;Bool;;Whether the title has a frame around it
+20;Int32;;Title frame color
+21;UInt8;;Title frame width
+22;WideString;;Title font
+23;Bool;;Whether the report's pages have a column header
+24;UInt16;;Column header height
+25;Bool;;Whether the column header has a frame around it
+26;Int32;;Column header frame color
+27;UInt8;;Column header frame width
+28;UInt16;;Row height
+29;Bool;;Show horizontal lines (rows)
+30;Bool;;Show vertical lines (columns)
+31;Bool;;Whether the report's pages have a footer
+32;Int32;;Footer background color
+33;UInt16;;Footer background color
+34;Bool;;Page number and footer text on separate rows
+35;Bool;;Number the report's pages on the footer
+36;UInt8;;Page number alignment (0.. to the left, 1..to the center, 2..to the right)
+37;WideString;;Page number font
+38;Bool;;Whether the report's pages have a text on the footer
+39;Int32;;Footer text
+40;UInt8;;Footer text alignment (0.. to the left, 1..to the center, 2..to the right)
+41;WideString;;Footer text font
+42;Bool;;Enabled custom start time delay of day
+43;Int32;;Custom start time delay of day (in seconds)
+44;Bool;;Enable to write time stamp of selected record to tag
+45;Int32;;Name of the tag (of type DateTime) that should receive the selected record's time stamp
+46;Bool;;Convert time stamp of the selected record to local time
+47;WideString;;Action list
+48;Bool;;Row word wrap
+
+Objects_00000017.rdt - Table of objects of type 'Report Item'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Item title
+15;Bool;;Use the item's name as a title
+16;Int32;;Title background color
+17;UInt8;;Title alignment (0.. to the left, 1..to the center, 2..to the right)
+18;WideString;;Title font
+19;Int32;;Item value background color
+20;UInt8;;Item value alignment (0.. to the left, 1..to the center, 2..to the right)
+21;WideString;;Item value font
+22;UInt16;;Item column width
+23;UInt16;;Item column order
+24;WideString;;Item value format
+25;Bool;;Title word wrap
+
+Objects_00000018.rdt - Table of objects of type 'Connected Custom Report'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000019.rdt - Table of objects of type 'Custom Report'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int8;;Custom report type (1..Text, 2..Web page, 3..FastReport, 4..Web Archive)
+13;Bool;;Use custom template
+14;WideString;;Name of the report template file in the *.rrt, *.fr3, *.htm, *.html, *.mht, *.mhtml, or *.txt format
+15;WideString;;Custom Report Template file extension
+16;Bool;;General: continuous
+17;Bool;;General: page breaks
+18;Bool;;WYSIWYG
+19;Bool;;General: save background pictures
+20;Bool;;General: OEM codepage
+21;Bool;;General: use styles
+22;Bool;;Excel and RTF files: save pictures
+23;Bool;;HTML files: save all files to the same folder
+24;Bool;;HTML files: create page navigator
+25;Bool;;HTML files: fixed page width
+26;Bool;;HTML files: create separate file for each page
+27;Int32;;HTML files: save pictures as (0..None, 1..JPG, 2..BMP, 3..GIF)
+28;Bool;;PDF files: compress files
+29;Bool;;PDF files: embedded fonts
+30;Bool;;PDF files: print optimized
+31;Bool;;PDF files: create outline
+32;Bool;;Excel files: create cells as text
+33;Bool;;Excel files: merge cells
+34;Bool;;Excel files: fast export
+35;Bool;;Picture files: create separate file for each page
+36;Bool;;Picture files: monochrome
+37;Bool;;Picture files: crop pages
+38;Int32;;Picture files: resolution (DPI)
+39;Int32;;Picture files: JPG quality
+40;Bool;;Text files: create frames
+41;Bool;;Text files: use empty lines
+42;WideString;;CSV files: item separator
+43;Int32;;RTF files: create page header and footer (0..Text, 1..Header/Footer, 2..None)
+44;Bool;;Watch template file changes
+
+Objects_0000001A.rdt - Table of objects of type 'Custom Report Item'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Unused
+15;Bool;;Display units after tag's value
+16;WideString;;Test value
+17;Int32;;Unused
+18;Int32;;Unused
+19;UInt8;;Unused
+20;Int32;;Unused
+21;Bool;;Value format (0..Based on tag, 1..Based on report)
+
+Objects_0000001B.rdt - Table of objects of type 'Connected Recipe Types'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;WideString;;Directory
+
+Objects_0000001C.rdt - Table of objects of type 'Recipe Type'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Bool;;Secure using the recipe
+13;Int32;;Unused
+14;Bool;;Secure saving the recipe
+15;Int32;;Unused
+16;Bool;;Secure deleting the recipe
+17;Int32;;Unused
+18;Bool;;Control loading a recipe into devices by a digital-type tag
+19;Int32;;Name of the tag controlling loading a recipe into devices
+20;Int32;;Name of the tag whose value represents the name of the recipe to be loaded into devices
+21;Bool;;Use the tag that should receive confirmation of loading a recipe
+22;Int32;;Name of the tag that should receive confirmation of loading a recipe
+23;Bool;;Reset the tag controlling loading a recipe into devices after detecting the leading edge
+24;Bool;;Use different tags for editing a recipe
+25;Bool;;Control loading a recipe into tags for editing by a digital-type tag
+26;Int32;;Name of the tag controlling loading a recipe into tags for editing
+27;Bool;;Reset the tag controlling loading a recipe into tags for editing after detecting the leading edge
+28;Int32;;Name of the tag whose value represents the name of the recipe to be loaded into tags for editing
+29;Bool;;Control saving a recipe
+30;Int32;;Name of the tag controlling saving a recipe
+31;Bool;;Reset the tag controlling saving a recipe after detecting the leading edge
+32;Int32;;Name of the tag whose value represents the name of the recipe to be saved
+33;Bool;;Control deleting a recipe by a digital-type tag
+34;Int32;;Name of the tag controlling deleting a recipe
+35;Bool;;Reset the tag controlling deleting a recipe after detecting the leading edge
+36;Int32;;Name of the tag whose value represents the name of the recipe to be deleted
+37;Bool;;Use the tag that should receive the list of stored recipes
+38;Int32;;Name of the tag of type Array of String that should receive the list of stored recipes
+39;UTF8String;;Access rights required for using a recipe (i.e. loading the recipe into devices)
+40;UTF8String;;Access rights required for creating and saving a recipe
+41;UTF8String;;Access rights required for deleting a recipe
+
+Objects_0000001D.rdt - Table of objects of type 'Recipe Item'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Name of the tag that allows for editing item value and whose value will be stored as part of recipe data
+
+Objects_0000001E.rdt - Table of objects of type 'Server Connection Group'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Interval at which to test higher-priority connections (in milliseconds)
+
+Objects_0000001F.rdt - Table of objects of type 'Server Connection'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Name of the server computer
+13;UInt8;;Unused
+14;Bool;;Enable to control the connection by a tag on the client side
+15;Int32;;Name of the tag controlling the connection on the client side
+16;Bool;;Enable to control the connection by a tag on the server side
+17;Int32;;Name of the tag controlling the connection on the server side
+18;Bool;;Run a script when the connection is established
+19;Int32;;Name of the script to be run when the connection is established
+20;Int32;;Parameter of the script to be run when the connection is established
+21;Bool;;Run a script when the connection is terminated
+22;Int32;;Name of the script to be run when the connection is terminated
+23;Int32;;Parameter of the script to be run when the connection is terminated
+24;Bool;;Alarm/event transfer - Client and server don't use the same alarm/event table
+25;Bool;;Alarm/event transfer - limit downloaded archive file count (when using a file-based database)/limit downloaded record age (number of days; when using an SQL database)
+26;UInt16;;Alarm/event transfer - max. downloaded archive file count (when using a file-based database)/max. downloaded record age (number of days; when using an SQL database)
+27;Bool;;Transfer window records
+28;Int16;;Priority
+29;Int32;;Connection timeout (in milliseconds)
+30;Int32;;Idle delay after failure to find the server computer on the network (in milliseconds)
+31;UInt16;;Connection timeout count before using a secondary connection
+32;UInt16;;Number of failed attempts to find the server computer on the network before using a secondary connection
+33;Int32;;Unused
+34;Bool;;Generate internal system messages
+35;Bool;;Use alternative server address
+36;WideString;;Alternative server address
+37;Int32;;Device data update interval
+38;Int32;;Server response timeout before using a secondary connection (in milliseconds)
+
+Objects_00000020.rdt - Table of objects of type 'Modem'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Bool;;Enable to control the modem's operation by a tag
+13;Int32;;Name of the tag controlling the modem's operation
+14;Bool;;Only for callbacks
+15;Bool;;Process DCD signal
+16;Int32;;COM port number
+17;UInt16;;Communication speed via the COM port (1..300 Bd, 2..600 Bd, 3..1200 Bd, 4..2400 Bd, 5..4800 Bd, 6..9600 Bd, 7..19200 Bd, 8..38400 Bd, 9..57600 Bd, 10..115200 Bd)
+18;UInt16;;Telephone service provider index
+19;Int32;;Dial timeout (in milliseconds)
+20;Int32;;Command timeout (in milliseconds)
+21;WideString;;Initialization string no. 1
+22;WideString;;Initialization string no. 2
+23;WideString;;Reset command
+24;WideString;;Dial command
+25;WideString;;Hang-up command
+26;Int32;;Delay of the command for transition to the command mode (ms)
+27;Int32;;Idle period between calls (ms)
+28;UInt8;;Modem connection type (0..serial port, 2..TCP socket)
+29;UInt32;;TCP socket - modem TCP port number
+30;WideString;;TCP socket - modem IP address
+31;Bool;;Write the modem's message list to a tag (column: Device)
+32;Int32;;Name of the tag to which the modem's message list should be written (column: Device)
+33;Bool;;Write the modem's message list to a tag (column: Packet)
+34;Int32;;Name of the tag to which the modem's message list should be written (column: Packet)
+35;Bool;;Write the modem's message list to a tag (column: Packet length)
+36;Int32;;Name of the tag to which the modem's message list should be written (column: Packet length)
+37;Bool;;Write the modem's message list to a tag (column: Time)
+38;Int32;;Name of the tag to which the modem's message list should be written (column: Time)
+39;Bool;;Write the modem's message list to a tag (column: Comment)
+40;Int32;;Name of the tag to which the modem's message list should be written (column: Comment)
+41;Bool;;Write the modem's message list text color to a tag
+42;Int32;;Name of the tag to which the modem's message list text color should be written
+43;Bool;;Write the list of devices (waiting in the queue for the modem) to a tag
+44;Int32;;Name of the tag to which the list of devices (waiting in the queue for the modem) should be written
+
+Objects_00000021.rdt - Table of objects of type 'Picture'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;WideString;;Picture name
+13;WideString;;Picture type
+14;Bool;;Use transparent color
+15;Int32;;Transparent color
+16;Bool;;Use 24-bit color depth
+
+Objects_00000022.rdt - Table of objects of type 'Connected Script'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000023.rdt - Table of objects of type 'Data Structure'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Device type
+13;UInt16;;Device/model
+14;UInt8;;Field addressing type (0..address not used, 1..address fixed, 2..address calculated based on field order)
+
+Objects_00000024.rdt - Table of objects of type 'Data Structure Field'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;Int32;;Item order
+15;UInt8;;Tag kind
+16;Int32;;Tag data type (0..Word, 1..Byte, 2..Bool, 3..DoubleWord, 4..LongInt, 5..Float, 6..String, 7..Integer, 8..Array of Byte, 9..Array of Word, 10..Array of String, 11..Array of Integer, 12..Array of LongInt, 13..Array of DoubleWord, 14..Array of Float, 15..Array of Bool, 16..Array of DateTime, 17..DateTime, 19..DoubleFloat, 20..Array of DoubleFloat)
+17;Int32;;Number of characters (only for fields of type String or Array of String)
+18;Int32;;Number of elements (only for array-type fields)
+19;Int32;;Address (relative address within data structure)
+20;UInt8;;Bit number
+21;Bool;;Automatically generate tags on synchronization
+22;Int32;;Number of matrix rows (only for array-type fields of AMiT devices)
+23;Int32;;Number of matrix columns (only for array-type fields of AMiT devices)
+24;WideString;;Technological name
+25;Int32;;Engineering units
+26;Int32;;Text to be displayed instead of logical 0
+27;Int32;;Text to be displayed instead of logical 1
+28;UInt16;;Type identification for reading (IEC104)
+29;UInt16;;Type identification for writing (IEC104)
+30;Int32;;Address for writing (IEC104)
+31;UInt8;;Bit number for writing
+32;Int32;;Qualifier for writing (IEC104)
+33;Bool;;Whether the bit is located on a new byte
+34;UInt16;;Property identifier (BACnet)
+35;Int32;;Unused
+36;UInt16;;PLC data type (Siemens)
+
+Objects_00000025.rdt - Table of objects of type 'Connected User'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000026.rdt - Table of objects of type 'Action'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+14;UInt16;;Action type
+15;Bool;;Show a title bar; it only applies to 'Show picture', 'www link', and 'Select array element' action types
+16;Bool;;Maximize picture preview; it only applies to 'Show picture' action type
+17;Bool;;Show a 'Close' button on the picture preview; it only applies to 'Show picture' action type
+18;WideString;;File name of the external picture to be shown; it only applies to 'Show picture' action type
+19;Bool;;Show an external picture (a picture in a separate file that may not be part of the project); it only applies to 'Show picture' action type
+20;Bool;;Insert the trend into runtime software's main window; it only applies to 'Show trend' action type
+21;Int32;;Name of the trend to be shown; it only applies to 'Show trend' action type
+22;Bool;;Insert the report into runtime software's main window; it only applies to 'Show report' action type
+23;Int32;;Name of the report to be shown; it only applies to 'Show report' action type
+24;Bool;;Write a constant value to a tag; it only applies to 'Set tag value' action type
+25;WideString;;Value to be written to the tag; it only applies to 'Set tag value' action type
+26;WideString;;Web page (link) to be shown; it only applies to 'URL' action type
+27;Bool;;Show the web page on top of other windows; it only applies to 'URL' action type
+28;WideString;;File name of the external application (program) to be run; it only applies to 'Run application' action type
+29;Int32;;Title of the form in 'Show Picture' or 'URL' action type
+30;Int32;;Name of the picture to be shown; it only applies to 'Show picture' action type
+31;Int32;;Name of the custom report to be shown; it only applies to 'Show custom report' action type
+32;Int32;;Name of the device whose alarms/events to be shown; it only applies to 'Show current alarms/events' and 'Show historical alarms/events' action types
+33;Int32;;Unused
+34;Int32;;Name of the tag
+35;Int32;;Name of the window to be activated; it only applies to 'Activate window' action type
+36;Int32;;Project language to be activated; it only applies to 'Activate language' action type
+37;Int32;;Name of the script to be run; it only applies to 'Run script' action type
+38;Int32;;Parameter of the script to be run; it only applies to 'Run script' action type
+39;Int32;;Program language to be activated
+40;WideString;;Name of the sound file to be played
+41;Int32;;Keyboard shortcut that triggers the action
+42;WideString;;Action list
+43;WideString;;Name (within devices) of the tags to be set
+44;UInt8;;Tag value source type (0..constant, 1..specified at runtime, 2..another tag's value)
+45;Int32;;Name of the tag the value of which should be written to tags in the devices
+46;WideString;;Constant value to be written to tags in the devices
+47;Bool;;Write value into all listed devices
+48;WideString;;Device list
+49;Bool;;Use the tag that controls the action's textual property
+50;Int32;;Name of the tag that controls the action's textual property
+51;Bool;;Require a confirmation before performing the action
+52;UInt8;;Web browser type (0..built-in (Internet Explorer), 1..default web browser)
+53;Bool;;Insert the report into runtime software's main window; it only applies to 'Show custom report' action type
+54;Bool;;Show alarms/events in modal window
+55;Bool;;Filter alarms/events by device; it only applies to 'Show current alarms/events' and 'Show historical alarms/events' action types
+56;Bool;;Use quick filter
+57;WideString;;Quick filter text
+58;UInt8;;Quick filter mode (0..match the beginning of the string, 1..match any part of the string)
+59;UInt8;;Type of link to a trend (0..link to a selected trend, 1..link to a tag controlling the name of the trend); it only applies to 'Show trend' action type
+60;Int32;;Name of the tag controlling the name of the trend; it only applies to 'Show trend' action type
+61;UInt8;;Type of link to a report (0..link to a selected report, 1..link to a tag controlling the name of the report); it only applies to 'Show report' action type
+62;Int32;;Name of the tag controlling the name of the report; it only applies to 'Show report' action type
+63;UInt8;;Type of link to a custom report (0..link to a selected custom report, 1..link to a tag controlling the name of the custom report); it only applies to 'Show custom report' action type
+64;Int32;;Name of the tag controlling the name of the custom report; it only applies to 'Show custom report' action type
+65;UInt8;;Type of link to a window (0..link to a selected window, 1..link to a tag controlling the name of the window); it only applies to 'Activate window' action type
+66;Int32;;Name of the tag controlling the name of the window; it only applies to 'Activate window' action type
+67;Int32;;Name of the tag whose value will be copied to the Windows clipboard or pasted from the Windows clipboard
+68;WideString;;Directory name of the external application (program) to be run; it only applies to 'Run application' action type
+69;Int32;;Name of the tag containing item display strings
+70;Int32;;Name of the tag containing item numeric values
+71;Bool;;Control the the number of displayed array elements by a tag
+72;Int32;;Name of the tag controlling the number of displayed array elements
+73;Int32;;Number of displayed array elements
+74;Bool;;Specifies whether to enable a context menu in the embedded Web browser (Internet Explorer); it only applies to 'www link' action type
+
+Objects_00000027.rdt - Table of objects of type 'Communication Driver'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Communication driver type
+13;Bool;;Log information to file
+14;UInt32;;Logging control code (1. bit..log communications, 4. bit..log errors, 5. bit..log detailed information)
+15;UInt32;;Interval between reception and transmission (ms)
+16;UInt16;;Max. bad communication count
+17;UInt32;;Maximum communication packet length (byte)
+18;UInt32;;Communication driver address
+19;UInt16;;Communication error count before resetting communication channel
+20;Bool;;Secure communication by different length of communication packets (Teco)
+21;Bool;;Secure communication by reading time stamp (Teco, IEC104)
+22;Bool;;Communicate only via communication zones (Teco, Modbus)
+23;Bool;;Communication warm start (WSR3000, Sauter)
+24;Bool;;Unused
+25;UInt32;;Unused
+26;UInt32;;Unused
+27;UInt16;;Maximum spontaneous response request count in response category
+28;UInt32;;Device initialization period (ms) (Sauter)
+29;UInt32;;Device synchronization period (ms) (Sauter)
+30;UInt32;;Spontaneous response frequency statistics length (min) (Sauter)
+31;UInt32;;Maximum number of Check packets (WSR3000)
+32;UInt32;;Maximum number of Init packets (WSR3000)
+33;UInt32;;Communication packet preparation period (ms) (WSR3000)
+34;Bool;;Unused
+35;UInt32;;Unused
+36;UInt32;;Unused
+37;Bool;;Unused
+38;Bool;;Unused
+39;Bool;;Unused
+40;Bool;;Unused
+41;UInt32;;Maximum TCP socket count
+42;UInt32;;Maximum UDP socket count
+43;UInt32;;Received SMS message check interval (s) (SMS)
+44;Bool;;Release communication port when idle
+45;UInt32;;Idle period for releasing communication port (ms)
+46;UInt32;;Spontaneous response request timeout (ms) (Sauter)
+47;UInt32;;Maximum packet count for writing into one device
+48;WideString;;AT commands for modem initialization (SMS)
+49;UInt32;;Number of days for which log files are kept on disk
+50;UInt32;;Maximum log file size (byte)
+51;Bool;;Send setpoints (DMB)
+52;UInt8;;Updating tag value after write (0..Immediately, before sending command to PLC, 1..After positive acknowledgment of command from PLC, 2..After receiving data from PLC)
+53;UInt32;;Communication channel main loop interval (ms)
+54;WideString;;Client identification string (MQTT)
+
+Objects_00000028.rdt - Table of objects of type 'Connected Communication Driver'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Int32;;Type of the object that this object is linked to
+13;Int32;;ID of the object that this object is linked to
+
+Objects_00000029.rdt - Table of objects of type 'State list'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;State list type (0..integer value list, 1..integer value range list, 2..floating-point value range list)
+13;UInt8;;Number of decimal places for floating-point values
+14;UInt8;;What should be displayed when no state corresponds to the value (0..value, 1..nothing, 2..specified text)
+15;Int32;;Text displayed when no state corresponds to the value
+
+Objects_0000002A.rdt - Table of objects of type 'State'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UInt16;;Order in state list
+13;Float64;;Lower range limit.
+14;Float64;;Upper range limit.
+15;Bool;;Include lower range limit.
+16;Bool;;Include upper range limit.
+
+Objects_0000002C.rdt - Table of objects of type 'State list folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000002D.rdt - Table of objects of type 'State folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000002E.rdt - Table of objects of type 'Connected Device Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000002F.rdt - Table of objects of type 'Connected Communication Driver Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000030.rdt - Table of objects of type 'Device Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000031.rdt - Table of objects of type 'Communication Zone Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000032.rdt - Table of objects of type 'Tag Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Bool;;Unused
+13;Int32;;Update interval for tags in the folder (in milliseconds)
+14;Float64;;Deadband (%) (OPC, OPC UA)
+15;UInt8;;Update state for tags in the folder (0..inactive, 1..active, 2..tag-controlled)
+16;Int32;;Name of the tag that controls whether tags in the folder will be updated
+17;Bool;;Update tags based on folder
+18;Bool;;Use the tag that controls whether tags in the folder will be updated
+19;Int32;;Name of the tag that controls the update interval for tags in the folder (in milliseconds)
+20;Bool;;Use ASDU address (IEC104)
+21;Int32;;ASDU address (IEC104)
+
+Objects_00000033.rdt - Table of objects of type 'Alarm/Event Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000034.rdt - Table of objects of type 'Connected Data Table Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000036.rdt - Table of objects of type 'Data Table Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000037.rdt - Table of objects of type 'Data Table Field Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000038.rdt - Table of objects of type 'Connected Trend Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000039.rdt - Table of objects of type 'Trend Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003A.rdt - Table of objects of type 'Trend Series Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003B.rdt - Table of objects of type 'Real-Time Trend Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003C.rdt - Table of objects of type 'Real-Time Trend Series Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003D.rdt - Table of objects of type 'Connected Report Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003E.rdt - Table of objects of type 'Report Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000003F.rdt - Table of objects of type 'Report Item Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000040.rdt - Table of objects of type 'Connected Custom Report Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000041.rdt - Table of objects of type 'Custom Report Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000042.rdt - Table of objects of type 'Custom Report Item Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000043.rdt - Table of objects of type 'Connected Recipe Type Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000044.rdt - Table of objects of type 'Recipe Type Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000045.rdt - Table of objects of type 'Recipe Item Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000046.rdt - Table of objects of type 'Connected Script Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000048.rdt - Table of objects of type 'Script Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000049.rdt - Table of objects of type 'Window Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000004B.rdt - Table of objects of type 'Computer Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000004C.rdt - Table of objects of type 'User Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000004D.rdt - Table of objects of type 'Printer Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_0000004E.rdt - Table of objects of type 'Modem Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000051.rdt - Table of objects of type 'Picture Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000052.rdt - Table of objects of type 'Data Structure Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000053.rdt - Table of objects of type 'Connected User Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000054.rdt - Table of objects of type 'Action Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_00000055.rdt - Table of objects of type 'Communication Driver Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_000000C8.rdt - Table of objects of type 'Trend Chart Axis'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;Bool;;Hidden axis
+13;Float64;;Axis minimum
+14;Float64;;Axis maximum
+15;Bool;;Whether the axis is automatic
+16;UInt8;;What is automatic on the axis (0..minimum and maximum, 1..minimum, 2..maximum)
+17;Bool;;Control axis minimum by a tag
+18;Int32;;Name of the tag controlling the axis minimum
+19;Bool;;Control axis maximum by a tag
+20;Int32;;Name of the tag controlling the axis maximum
+21;Bool;;Series axis title
+22;Int32;;Custom title for series axis 
+23;Bool;;Use series name as series axis title
+24;Int16;;Axis position: start (%)
+25;Int16;;Axis position: end (%)
+26;Int16;;Axis position (%)
+
+Objects_000000C9.rdt - Table of objects of type 'Role'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+12;UTF8String;;Access rights
+
+Objects_000000FA.rdt - Table of objects of type 'Trend Chart Axis Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
+Objects_000000FB.rdt - Table of objects of type 'Role Folder'
+--------------------------------------------------------------
+Index;Data type;Name;Description
+0;Int32;Id;Object ID
+1;WideString;Name;Object name
+2;Bool;AutoSyncName;Automatically synchronize object name
+3;Int32;OwnerType;Owner object type (0..default object type)
+4;Int32;OwnerId;Owner object ID
+5;Int32;FolderId;Folder ID
+6;Int32;AliasId;Object alias
+7;Int32;DescriptionId;Object description
+8;WideString;Comment;Comment on object
+9;Int64Time;LastChangeTime;Object last change time
+10;UInt32;Flags;Flags
+11;Blob;;Unused
+
