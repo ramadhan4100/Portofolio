@@ -1,0 +1,73 @@
+[System]
+Name='Pengereman'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=27
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Kecepatan'
+Range=[0 120]
+NumMFs=3
+MF1='lambat':'trapmf',[-35.3 -7.78 30 50]
+MF2='sedang':'trimf',[40 60 80]
+MF3='cepat':'trapmf',[70 90 131 162]
+
+[Input2]
+Name='jarak'
+Range=[0 10]
+NumMFs=3
+MF1='Dekat':'trapmf',[-3.49708994708995 -0.294089947089947 1.55291005291005 3.05291005291005]
+MF2='Sedang':'trimf',[3 4.5 6]
+MF3='Jauh':'trapmf',[6 7.5 10.4 13.6]
+
+[Input3]
+Name='kemiringan'
+Range=[-90 90]
+NumMFs=3
+MF1='Turun':'trapmf',[-155 -97.2 -60 0]
+MF2='Datar':'trimf',[-20 0 20]
+MF3='Naik':'trapmf',[0 60 96.7 154]
+
+[Output1]
+Name='Tingkat_Pengereman'
+Range=[0 1]
+NumMFs=3
+MF1='Lemah':'trimf',[-0.4 0 0.4]
+MF2='Sedang':'trimf',[0.1 0.5 0.9]
+MF3='Kuat':'trimf',[0.6 1 1.4]
+
+[Rules]
+1 1 1, 3 (1) : 1
+1 1 2, 2 (1) : 1
+1 1 3, 1 (1) : 1
+1 2 1, 2 (1) : 1
+1 2 2, 1 (1) : 1
+1 2 3, 1 (1) : 1
+1 3 3, 1 (1) : 1
+1 3 2, 1 (1) : 1
+1 3 1, 2 (1) : 1
+2 1 1, 3 (1) : 1
+2 1 2, 2 (1) : 1
+2 1 3, 1 (1) : 1
+2 2 3, 1 (1) : 1
+2 2 2, 2 (1) : 1
+2 2 1, 3 (1) : 1
+2 3 1, 2 (1) : 1
+2 3 2, 1 (1) : 1
+2 3 3, 1 (1) : 1
+3 1 3, 2 (1) : 1
+3 1 2, 3 (1) : 1
+3 1 1, 3 (1) : 1
+3 2 1, 3 (1) : 1
+3 2 2, 3 (1) : 1
+3 2 3, 2 (1) : 1
+3 3 1, 2 (1) : 1
+3 3 2, 2 (1) : 1
+3 3 1, 3 (1) : 1
