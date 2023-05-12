@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>LOGIN FORM</title>
+</head>
+<body>
+<form class=”login”>
+<h3>LOGIN DULU</h3>
+<p>
+Username : <br>
+<input type=”text” name=”username”>
+</p>
+<p>
+Password : <br>
+<input type=”password” name=”password”>
+</p>
+<p>
+<input type=”SUBMIT” value=”LOGIN”>
+</p>
+</form>
+</body>
+</html>
