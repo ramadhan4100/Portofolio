@@ -1,0 +1,272 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Handwritten.Invoice.IT_invoice",
+      "Group": "Handwritten",
+      "Category": "Invoice",
+      "Name": "IT_invoice",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Handwritten.Invoice.IT_invoice.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Handwritten.Invoice.IT_invoice.InvoiceDate",
+          "FieldName": "InvoiceDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Handwritten.Invoice.IT_invoice.InvoiceNumber",
+          "FieldName": "InvoiceNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Handwritten.Invoice.IT_invoice.InvoiceTerms",
+          "FieldName": "InvoiceTerms",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Handwritten.Invoice.IT_invoice.InvoiceDueDate",
+          "FieldName": "InvoiceDueDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Handwritten.Invoice.IT_invoice.ItemData",
+          "FieldName": "ItemData",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Handwritten.Invoice.IT_invoice.ItemData.ItemDescription",
+              "FieldName": "Item Description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Handwritten.Invoice.IT_invoice.ItemData.Quantity",
+              "FieldName": "Quantity",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Handwritten.Invoice.IT_invoice.ItemData.Price",
+              "FieldName": "Price",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Handwritten.Invoice.IT_invoice.ItemData.Amount",
+              "FieldName": "Amount",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Handwritten",
+      "Categories": [
+        "Invoice"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
